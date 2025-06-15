@@ -25,7 +25,7 @@ end
 
 def float_division(a, b)
   # return the result of dividing a by b as a float, rather than an integer
-  return a.to_f / b
+  return (a / b).to_f
 end
 
 def string_to_number(string)
