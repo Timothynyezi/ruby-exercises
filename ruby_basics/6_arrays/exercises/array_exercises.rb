@@ -4,7 +4,7 @@ end
 
 def first_element(array)
   # return the first element of the array
-  return array.unshift
+  return array[0]
 end
 
 def third_element(array)
