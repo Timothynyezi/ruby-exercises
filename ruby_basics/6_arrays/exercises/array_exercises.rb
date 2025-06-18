@@ -9,7 +9,7 @@ end
 
 def third_element(array)
   # return the third element of the array
-  return array[2]
+  return array.lenght >= 3 ? array[2] : nil
 end
 
 def last_three_elements(array)
